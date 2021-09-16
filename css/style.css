@@ -1,0 +1,158 @@
+/* Do CSS Reset */
+*{
+    margin: 0;
+    padding: 0;
+}
+/* CSS Variables */
+
+html{
+    scroll-behavior: smooth;
+  }
+
+/* Headings */
+
+h1{
+    text-align:center;
+    color: white;
+    padding: 10px;
+    text-size-adjust: 30px;
+}
+
+/* Navigation Bar */
+#navbar{
+    display: flex;
+    width: 100%;
+    height: 10%;
+    min-height: 30px;
+    background-color: grey;
+    position: fixed;
+    -ms-flex-align: start;
+    margin: 0px;
+    z-index: 1;
+ }
+#navbar ul{
+    display: flex;
+}
+ #navbar ul li{
+    list-style: none;
+    font-size: 18px;
+    border-radius: 1vw;
+    text-decoration: none;
+    color: white;
+    padding: 1vw;
+} 
+#navbar ul li a{
+    padding: 2px;
+    border-radius: 20px;
+    text-decoration: none;
+}
+
+
+/* Logo */
+
+.logo{
+    height: 90%;
+    width: 5%;
+    margin: 2px;
+}
+.logo_image{
+    height: 98%;
+    max-width: 100%;
+}
+
+img {
+    border-radius: 5px 5px 0 0;
+  }
+
+/* Services Section */
+
+.services {
+    padding-top: 80px;
+    height: 120vh;
+    min-height: 800px;
+    width: 100%;
+    background-image: url("../img/catering.jpg");
+    /* display: flex;
+    flex-wrap: wrap; */
+}
+.container {
+    height: 80%;
+    width: 95%;
+    margin: auto;
+    /* margin: 15% 3% 3% 3%; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly ;
+    border-radius: 20px;
+}
+
+/* Clients Section */
+
+.Clients {
+    padding: auto;
+    height: 100%;
+    width: 100%;
+    min-height: 500px;
+    background-image: url("../img/catering2.jpeg");
+    /* display: flex;
+    flex-wrap: wrap; */
+}
+
+/* Contact Us */
+
+.contact_us {
+    /* padding-top: 10px; */
+    padding: auto;
+    margin: auto;
+    height: 20%;
+    width: 100%;
+    background-color: red;
+    min-height: 350px;
+    position: absolute;
+}
+.contact_us div {
+    margin: 0 auto;
+    width: 80%;
+    height: 200px;
+}
+input, select {
+    width:80%;
+}
+
+/* Product Cards */
+
+.card {
+    max-width: 200px;
+    max-height: 300px;
+    margin: auto;
+    margin-bottom: 10px;
+    /* padding: 10% 3% 3% 3%; */
+    padding: auto;
+    text-align: center;
+    box-shadow: 2px 2px 8px grey;
+    background-color: white;
+}
+    .card img {
+        /* max-height: 300px; */
+        /* max-width: 300px; */
+        /* width: 100%; */
+        height: 180px;
+        max-width: 100%;
+        max-height: 200px;
+        object-fit: fill;
+    }
+  .card button {
+    width: 100%;
+    color: white;
+    background-color: black;
+    border: none;
+    padding: 10px;
+    font-size: 16px;
+    text-align: center;
+    cursor: pointer;
+  }
+  
+  .card button:hover {
+    opacity: 0.8;
+    filter: brightness(5);
+  }
